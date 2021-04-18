@@ -11,7 +11,8 @@
   "homepage": "https://github.com/raulPROP/ngx-query-params/tree/master/projects/ngx-query-params#readme",
   "peerDependencies": {
     "@angular/common": ">= 9 < 12",
-    "@angular/core": ">= 9 < 12"
+    "@angular/core": ">= 9 < 12",
+    "@angular/router": ">= 9 < 12"
   },
   "dependencies": {
     "tslib": "^2.0.0"
