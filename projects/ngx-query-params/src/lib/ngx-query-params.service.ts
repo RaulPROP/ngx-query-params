@@ -85,14 +85,15 @@ export class NgxQueryParamsService {
     return obs;
   }
 
-  public async initialize(): Promise<void> {
+  public initialize(): void {
     if (!this.initialized) {
       this.initialized = true;
-      return this.onStart();
+      this.onStart();
+      this.log('> initialize');
     }
   }
 
-  protected onStart(): void | Promise<void> {
+  protected onStart(): void {
     this.activatedRoute.queryParamMap
       .pipe(
         takeUntil(this._destroyed$),

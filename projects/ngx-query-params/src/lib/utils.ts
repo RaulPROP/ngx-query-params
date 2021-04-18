@@ -6,7 +6,7 @@ export const defaultQueryParamsOptions: NgxQueryParamsOptions = {
 };
 
 export const initializer = (queryParamsService: NgxQueryParamsService) => {
-  return async () => {
-    await queryParamsService.initialize();
+  return () => {
+    queryParamsService.initialize();
   };
 };
