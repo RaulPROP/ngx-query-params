@@ -2,6 +2,7 @@ import { APP_INITIALIZER, ModuleWithProviders, NgModule } from '@angular/core';
 import { NgxQueryParamsService } from './ngx-query-params.service';
 import { NGX_QUERY_PARAMS_OPTIONS_TOKEN } from './tokens';
 import { NgxQueryParamsOptionsOverride } from './types';
+import { initializer } from './utils';
 
 @NgModule({
   declarations: [],
@@ -21,11 +22,7 @@ export class NgxQueryParamsModule {
         },
         {
           provide: APP_INITIALIZER,
-          useFactory: (queryParamsService: NgxQueryParamsService) => {
-            return async () => {
-              await queryParamsService.initialize();
-            };
-          },
+          useFactory: initializer,
           deps: [NgxQueryParamsService],
           multi: true,
         },
