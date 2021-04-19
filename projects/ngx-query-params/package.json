@@ -1,20 +1,20 @@
 {
-  "name": "@rautils/ngx-query-params",
-  "version": "0.0.1",
-  "author": "Raul Ibáñez Pérez",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/raulPROP/ngx-query-params",
-    "directory": "projects/ngx-query-params"
-  },
-  "homepage": "https://github.com/raulPROP/ngx-query-params/tree/master/projects/ngx-query-params#readme",
-  "peerDependencies": {
-    "@angular/common": ">= 9 < 12",
-    "@angular/core": ">= 9 < 12",
-    "@angular/router": ">= 9 < 12"
-  },
-  "dependencies": {
-    "tslib": "^2.0.0"
-  }
+	"name": "@rautils/ngx-query-params",
+	"version": "0.0.1",
+	"author": "Raul Ibáñez Pérez",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/raulPROP/ngx-query-params",
+		"directory": "projects/ngx-query-params"
+	},
+	"homepage": "https://github.com/raulPROP/ngx-query-params/tree/master/projects/ngx-query-params#readme",
+	"peerDependencies": {
+		"@angular/common": ">= 9 < 12",
+		"@angular/core": ">= 9 < 12",
+		"@angular/router": ">= 9 < 12"
+	},
+	"dependencies": {
+		"tslib": "^2.0.0"
+	}
 }
