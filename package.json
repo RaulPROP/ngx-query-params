@@ -1,7 +1,7 @@
 {
 	"name": "ngx-query-params",
 	"version": "0.0.0-development",
-	"description": "Angular library to easily handle url query parameters",
+	"description": "Angular library to handle url query parameters",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/RaulPROP/ngx-query-params.git"
